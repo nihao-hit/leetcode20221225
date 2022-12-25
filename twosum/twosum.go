@@ -7,17 +7,17 @@ import (
 func main() {
 	numsList := [][]int{
 		{
-			2,7,11,15,
+			2, 7, 11, 15,
 		},
 		{
-			3,2,4,
+			3, 2, 4,
 		},
 		{
-			3,3,
+			3, 3,
 		},
 	}
 	targetList := []int{
-		9,6,6,
+		9, 6, 6,
 	}
 	for idx, nums := range numsList {
 		fmt.Println(twoSum(nums, targetList[idx]))
